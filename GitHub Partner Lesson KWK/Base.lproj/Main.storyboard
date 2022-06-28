@@ -67,9 +67,9 @@
                                 <rect key="frame" x="125" y="462" width="165" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="mqo-u8-P6e" kind="show" id="ReE-5O-38X"/>
+                                    <segue destination="mqo-u8-P6e" kind="show" animates="NO" id="Jid-hO-dig"/>
                                 </connections>
                             </button>
                         </subviews>
