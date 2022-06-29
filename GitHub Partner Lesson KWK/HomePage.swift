@@ -10,15 +10,20 @@ import UIKit
 class HomePage: UIViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         textboxHomePage.isHidden = true
         textboxHomePageLabel.isHidden = true
+        
+        CongratsHat.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
+        
 
         // Do any additional setup after loading the view.
     }
     
     
+    @IBOutlet weak var CongratsHat: UILabel!
     
     @IBOutlet weak var textboxHomePage: UIImageView!
     
