@@ -9,6 +9,12 @@ import UIKit
 
 class HomePage: UIViewController {
 
+    @IBOutlet weak var CongratsHat: UILabel!
+    
+    @IBOutlet weak var textboxHomePage: UIImageView!
+    
+    @IBOutlet weak var textboxHomePageLabel: UILabel!
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -23,11 +29,8 @@ class HomePage: UIViewController {
     }
     
     
-    @IBOutlet weak var CongratsHat: UILabel!
     
-    @IBOutlet weak var textboxHomePage: UIImageView!
-    
-    @IBOutlet weak var textboxHomePageLabel: UILabel!
+
     
     @IBAction func wormButtonHomePage(_ sender: Any) {
         textboxHomePage.isHidden = false

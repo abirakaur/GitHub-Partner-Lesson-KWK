@@ -353,10 +353,10 @@
             </objects>
             <point key="canvasLocation" x="1695.6521739130435" y="81.696428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Congrats View Controller-->
         <scene sceneID="VZi-GS-Bdd">
             <objects>
-                <viewController id="N9l-B3-1IZ" sceneMemberID="viewController">
+                <viewController id="N9l-B3-1IZ" customClass="congratsViewController" customModule="GitHub_Partner_Lesson_KWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gDc-9j-lbH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -457,6 +457,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="nxF-X2-iLx"/>
         <segue reference="dm8-kk-tqd"/>
     </inferredMetricsTieBreakers>
     <resources>

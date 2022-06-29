@@ -18,6 +18,7 @@
 		BD0E1D88286B5E4C00265282 /* GitHub_Partner_Lesson_KWKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E1D87286B5E4C00265282 /* GitHub_Partner_Lesson_KWKUITests.swift */; };
 		BD0E1D8A286B5E4C00265282 /* GitHub_Partner_Lesson_KWKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E1D89286B5E4C00265282 /* GitHub_Partner_Lesson_KWKUITestsLaunchTests.swift */; };
 		BD0E1D97286B765A00265282 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E1D96286B765A00265282 /* HomePage.swift */; };
+		BDE5E4CE286CC4C400F4E892 /* congratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5E4CD286CC4C400F4E892 /* congratsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BD0E1D87286B5E4C00265282 /* GitHub_Partner_Lesson_KWKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_Partner_Lesson_KWKUITests.swift; sourceTree = "<group>"; };
 		BD0E1D89286B5E4C00265282 /* GitHub_Partner_Lesson_KWKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_Partner_Lesson_KWKUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD0E1D96286B765A00265282 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		BDE5E4CD286CC4C400F4E892 /* congratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = congratsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				BD0E1D65286B5E4900265282 /* SceneDelegate.swift */,
 				BD0E1D67286B5E4900265282 /* ViewController.swift */,
 				BD0E1D69286B5E4900265282 /* Main.storyboard */,
+				BDE5E4CD286CC4C400F4E892 /* congratsViewController.swift */,
 				BD0E1D96286B765A00265282 /* HomePage.swift */,
 				BD0E1D6F286B5E4C00265282 /* Assets.xcassets */,
 				BD0E1D71286B5E4C00265282 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 				BD0E1D97286B765A00265282 /* HomePage.swift in Sources */,
 				BD0E1D68286B5E4900265282 /* ViewController.swift in Sources */,
 				BD0E1D64286B5E4900265282 /* AppDelegate.swift in Sources */,
+				BDE5E4CE286CC4C400F4E892 /* congratsViewController.swift in Sources */,
 				BD0E1D66286B5E4900265282 /* SceneDelegate.swift in Sources */,
 				BD0E1D6E286B5E4900265282 /* GitHub_Partner_Lesson_KWK.xcdatamodeld in Sources */,
 			);
