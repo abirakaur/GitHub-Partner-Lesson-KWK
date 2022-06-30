@@ -565,10 +565,10 @@
             </objects>
             <point key="canvasLocation" x="3860.8695652173915" y="81.696428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Water View Controller-->
         <scene sceneID="9gK-9C-Xhs">
             <objects>
-                <viewController id="bCu-Bw-UxT" sceneMemberID="viewController">
+                <viewController id="bCu-Bw-UxT" customClass="waterViewController" customModule="GitHub_Partner_Lesson_KWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DkI-TB-Wt1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -595,6 +595,7 @@
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="enterButton:" destination="bCu-Bw-UxT" eventType="touchUpInside" id="4c0-Mf-KRs"/>
                                     <action selector="enterMiles:" destination="mqo-u8-P6e" eventType="touchUpInside" id="L5H-ie-jxn"/>
                                 </connections>
                             </button>
@@ -645,11 +646,29 @@
                                     <segue destination="mqo-u8-P6e" kind="show" id="wLx-RQ-Xuh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMR-3r-DBQ">
+                                <rect key="frame" x="83" y="404" width="249" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="_ oz">
+                                        <attributes>
+                                            <font key="NSFont" size="23" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="my7-JH-VNe"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.92941176889999999" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="xnZ-GM-g8X"/>
+                    <connections>
+                        <outlet property="enter" destination="Qlo-eN-p6E" id="jFW-TZ-qPD"/>
+                        <outlet property="waterfield" destination="nlp-Lf-T70" id="CY8-Cm-kjT"/>
+                        <outlet property="waterlabel" destination="mMR-3r-DBQ" id="ECW-UH-cCN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IRl-R3-Pem" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -20,6 +20,7 @@
 		BD0E1D97286B765A00265282 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E1D96286B765A00265282 /* HomePage.swift */; };
 		BDE5E4CE286CC4C400F4E892 /* congratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5E4CD286CC4C400F4E892 /* congratsViewController.swift */; };
 		BDE5E4D0286CC6A300F4E892 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5E4CF286CC6A300F4E892 /* profileViewController.swift */; };
+		BDE5E511286E012200F4E892 /* waterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5E510286E012200F4E892 /* waterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BD0E1D96286B765A00265282 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		BDE5E4CD286CC4C400F4E892 /* congratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = congratsViewController.swift; sourceTree = "<group>"; };
 		BDE5E4CF286CC6A300F4E892 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		BDE5E510286E012200F4E892 /* waterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				BD0E1D65286B5E4900265282 /* SceneDelegate.swift */,
 				BD0E1D67286B5E4900265282 /* ViewController.swift */,
 				BD0E1D69286B5E4900265282 /* Main.storyboard */,
+				BDE5E510286E012200F4E892 /* waterViewController.swift */,
 				BDE5E4CF286CC6A300F4E892 /* profileViewController.swift */,
 				BDE5E4CD286CC4C400F4E892 /* congratsViewController.swift */,
 				BD0E1D96286B765A00265282 /* HomePage.swift */,
@@ -276,6 +279,7 @@
 				BD0E1D64286B5E4900265282 /* AppDelegate.swift in Sources */,
 				BDE5E4CE286CC4C400F4E892 /* congratsViewController.swift in Sources */,
 				BD0E1D66286B5E4900265282 /* SceneDelegate.swift in Sources */,
+				BDE5E511286E012200F4E892 /* waterViewController.swift in Sources */,
 				BD0E1D6E286B5E4900265282 /* GitHub_Partner_Lesson_KWK.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
