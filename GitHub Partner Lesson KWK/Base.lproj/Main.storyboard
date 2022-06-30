@@ -87,7 +87,7 @@
             <objects>
                 <viewController id="mqo-u8-P6e" customClass="HomePage" customModule="GitHub_Partner_Lesson_KWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tfa-dD-Ijs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ClOUD-removebg-preview (1)" translatesAutoresizingMaskIntoConstraints="NO" id="iZ7-jm-PN0">
@@ -470,7 +470,7 @@
             <objects>
                 <viewController id="N9l-B3-1IZ" customClass="congratsViewController" customModule="GitHub_Partner_Lesson_KWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gDc-9j-lbH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orR-6y-KpN">
@@ -570,7 +570,7 @@
             <objects>
                 <viewController id="bCu-Bw-UxT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DkI-TB-Wt1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How much water have you had today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naj-hg-EGy">
@@ -641,6 +641,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="mqo-u8-P6e" kind="show" id="wLx-RQ-Xuh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="my7-JH-VNe"/>
@@ -712,7 +715,7 @@
             <objects>
                 <viewController id="zdu-Uq-oUY" customClass="profileViewController" customModule="GitHub_Partner_Lesson_KWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aCZ-Ih-yYI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="9A7-Dk-Fi9">
@@ -855,7 +858,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="604-ks-IAT"/>
+        <segue reference="wLx-RQ-Xuh"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
