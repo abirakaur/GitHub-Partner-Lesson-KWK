@@ -664,18 +664,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="four:" destination="bCu-Bw-UxT" eventType="touchUpInside" id="KLK-IH-cn4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFY-Yo-Vf2">
                                 <rect key="frame" x="150" y="547" width="114" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="eight:" destination="bCu-Bw-UxT" eventType="touchUpInside" id="gVD-RB-est"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJH-1A-dY9">
                                 <rect key="frame" x="276" y="547" width="118" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="thirtytwo:" destination="bCu-Bw-UxT" eventType="touchUpInside" id="gH4-mn-K5A"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="my7-JH-VNe"/>
@@ -683,7 +692,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="xnZ-GM-g8X"/>
                     <connections>
+                        <outlet property="eightoz" destination="sFY-Yo-Vf2" id="OvK-cj-HoT"/>
                         <outlet property="enter" destination="Qlo-eN-p6E" id="jFW-TZ-qPD"/>
+                        <outlet property="fouroz" destination="x2o-Lw-C8h" id="taC-Sv-vyV"/>
+                        <outlet property="thirtytwooz" destination="OJH-1A-dY9" id="U57-Xm-C36"/>
                         <outlet property="waterfield" destination="nlp-Lf-T70" id="CY8-Cm-kjT"/>
                         <outlet property="waterlabel" destination="mMR-3r-DBQ" id="ECW-UH-cCN"/>
                     </connections>

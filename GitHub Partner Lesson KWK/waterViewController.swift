@@ -15,21 +15,46 @@ class waterViewController: UIViewController {
     
     @IBOutlet weak var waterlabel: UILabel!
     
+    @IBOutlet weak var fouroz: UIButton!
+    @IBOutlet weak var eightoz: UIButton!
+    @IBOutlet weak var thirtytwooz: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        waterlabel.isHidden = true
+        
     }
     
     @IBAction func enterButton(_ sender: Any) {
         
         if let newTitle1 = waterfield.text {
             waterlabel.text = "\(newTitle1) oz"
+            waterlabel.isHidden = false
             waterfield.isHidden = true
             enter.isHidden = true
         }
         
     }
+    
+    @IBAction func four(_ sender: Any) {
+        waterlabel.text = "4 oz"
+        waterlabel.isHidden = false
+    }
+    
+    @IBAction func eight(_ sender: Any) {
+        waterlabel.text = "8 oz"
+        waterlabel.isHidden = false
+    }
+    
+    @IBAction func thirtytwo(_ sender: Any) {
+        waterlabel.text = "32 oz"
+        waterlabel.isHidden = false
+    }
+    
+    
+    
     
     
 
