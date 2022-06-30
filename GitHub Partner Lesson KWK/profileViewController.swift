@@ -27,15 +27,15 @@ class profileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        namefield.isHidden = false
-        heightfield.isHidden = false
-        weightfield.isHidden = false
-        goalfield.isHidden = false
+        //namefield.isHidden = false
+        //heightfield.isHidden = false
+        //weightfield.isHidden = false
+        //goalfield.isHidden = false
         
-        enter1.isHidden = false
-        enter2.isHidden = false
-        enter3.isHidden = false
-        enter4.isHidden = false
+        //enter1.isHidden = false
+        //enter2.isHidden = false
+        //enter3.isHidden = false
+        //enter4.isHidden = false
         
     }
     
