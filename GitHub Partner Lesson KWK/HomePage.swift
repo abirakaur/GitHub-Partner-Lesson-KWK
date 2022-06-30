@@ -15,6 +15,13 @@ class HomePage: UIViewController {
     
     @IBOutlet weak var textboxHomePageLabel: UILabel!
     
+    @IBOutlet weak var milesWalked: UILabel!
+    
+    @IBOutlet weak var enterMiles: UITextField!
+    
+    @IBOutlet weak var enter: UIButton!
+    
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -25,7 +32,8 @@ class HomePage: UIViewController {
         CongratsHat.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
         
 
-        // Do any additional setup after loading the view.
+        enterMiles.isHidden = false
+        enter.isHidden = false
     }
     
     
@@ -36,6 +44,17 @@ class HomePage: UIViewController {
         textboxHomePage.isHidden = false
         textboxHomePageLabel.isHidden = false
     }
+    
+    @IBAction func enterMiles(_ sender: Any) {
+        
+        if let newTitle1 = enterMiles.text {
+            milesWalked.text = "\(newTitle1) mi walked"
+            enterMiles.isHidden = true
+            enter.isHidden = true
+        }
+        
+    }
+    
     
     /*
     // MARK: - Navigation

@@ -147,23 +147,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMB-M2-yVA">
-                                <rect key="frame" x="141" y="169" width="133" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="3 mi">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="0.62916790398614619" green="0.63449566563556581" blue="0.63628472222222221" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <color key="NSColor" red="0.99015546085858586" green="0.99015546085858586" blue="0.99015546085858586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="46" name="EuphemiaUCAS-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <size key="shadowOffset" width="3" height="3"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Zjy-cw-Lp7">
                                 <rect key="frame" x="346" y="0.0" width="68" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -199,6 +182,39 @@
                                     <segue destination="N9l-B3-1IZ" kind="show" id="nxF-X2-iLx"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEE-1B-TMy">
+                                <rect key="frame" x="66" y="313" width="117" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMB-M2-yVA">
+                                <rect key="frame" x="9" y="224" width="400" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="_ mi walked">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.62916790398614619" green="0.63449566563556581" blue="0.63628472222222221" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="0.99015546085858586" green="0.99015546085858586" blue="0.99015546085858586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="46" name="EuphemiaUCAS-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="3" height="3"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TS-Dc-Yty">
+                                <rect key="frame" x="211" y="315" width="136" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Enter miles"/>
+                                <connections>
+                                    <action selector="enterMiles:" destination="mqo-u8-P6e" eventType="touchUpInside" id="2bM-bz-UoH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jzE-mj-0Ef"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.92941176889999999" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -208,6 +224,9 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="CongratsHat" destination="0u5-tp-vUT" id="Q36-BT-d5a"/>
+                        <outlet property="enter" destination="8TS-Dc-Yty" id="ZEq-hY-Fji"/>
+                        <outlet property="enterMiles" destination="KEE-1B-TMy" id="yBA-3h-18M"/>
+                        <outlet property="milesWalked" destination="RMB-M2-yVA" id="Fo2-KQ-kc0"/>
                         <outlet property="textboxHomePage" destination="YU4-Qh-9Fh" id="KlJ-Yd-luD"/>
                         <outlet property="textboxHomePageLabel" destination="Dgs-jg-cvU" id="ZaC-SK-qwh"/>
                     </connections>
@@ -531,6 +550,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="bVK-Ar-mHQ"/>
         <segue reference="EUo-hf-fyB"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
